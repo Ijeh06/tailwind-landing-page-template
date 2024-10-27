@@ -7,7 +7,7 @@ export default function SignUp() {
   return (
     <>
       <div className="mb-10">
-        <h1 className="text-4xl font-bold">Create your account</h1>
+        <h1 className="text-4xl font-bold text-purple-600">Create your account</h1>
       </div>
 
       {/* Form */}
@@ -54,7 +54,7 @@ export default function SignUp() {
               id="phone"
               className="form-input w-full py-2"
               type="text"
-              placeholder="(+750) 932-8907"
+              placeholder="(+234) 91-619"
               required
             />
           </div>
@@ -76,12 +76,12 @@ export default function SignUp() {
           </div>
         </div>
         <div className="mt-6 space-y-3">
-          <button className="btn w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%]">
+          <button className="btn w-full bg-gradient-to-t from-purple-600 to-purple-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%]">
             Register
           </button>
           <div className="text-center text-sm italic text-gray-400">Or</div>
           <button className="btn w-full bg-gradient-to-t from-gray-900 to-gray-700 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%]">
-            Continue with GitHub
+            Continue with Google
           </button>
         </div>
       </form>

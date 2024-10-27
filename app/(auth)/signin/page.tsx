@@ -10,7 +10,7 @@ export default function SignIn() {
     <>
       <>
         <div className="mb-10">
-          <h1 className="text-4xl font-bold">Sign in to your account</h1>
+          <h1 className="text-4xl font-bold text-purple-600">Sign in to your account</h1>
         </div>
         {/* Form */}
         <form>
@@ -48,7 +48,7 @@ export default function SignIn() {
             </div>
           </div>
           <div className="mt-6">
-            <button className="btn w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%]">
+            <button className="btn w-full bg-gradient-to-t from-purple-600 to-purple-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%]">
               Sign In
             </button>
           </div>
